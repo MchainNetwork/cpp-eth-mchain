@@ -24,7 +24,7 @@ ExternalProject_Add(jsoncpp
                ${_only_release_configuration}
                -DJSONCPP_WITH_TESTS=Off
                -DJSONCPP_WITH_PKGCONFIG_SUPPORT=Off
-               -DCMAKE_POSITION_INDEPENDENT_CODE=ON### marbellacoin
+               -DCMAKE_POSITION_INDEPENDENT_CODE=ON### marbellachain
                -DCMAKE_SYSTEM_NAME=${CMAKE_SYSTEM_NAME}
                -DCMAKE_C_COMPILER=${CMAKE_C_COMPILER}
                -DCMAKE_CXX_COMPILER=${CMAKE_CXX_COMPILER}

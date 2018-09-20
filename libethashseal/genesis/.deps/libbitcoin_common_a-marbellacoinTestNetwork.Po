@@ -1,5 +1,5 @@
-cpp-ethereum/libethashseal/genesis/libbitcoin_common_a-marbellacoinTestNetwork.o: \
-  cpp-ethereum/libethashseal/genesis/marbellacoinTestNetwork.cpp \
+cpp-ethereum/libethashseal/genesis/libbitcoin_common_a-marbellachainTestNetwork.o: \
+  cpp-ethereum/libethashseal/genesis/marbellachainTestNetwork.cpp \
   cpp-ethereum/libethashseal/genesis/../GenesisInfo.h \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/string \
   /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/__config \
