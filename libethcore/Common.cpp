@@ -75,6 +75,8 @@ vector<pair<u256, string>> const& units()
 {
 	static const vector<pair<u256, string>> s_units =
 	{
+		{exp10<8>(), "mar"},
+		{exp10<0>(), "satoshi"},
 		{exp10<54>(), "Uether"},
 		{exp10<51>(), "Vether"},
 		{exp10<48>(), "Dether"},
