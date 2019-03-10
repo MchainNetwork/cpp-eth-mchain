@@ -45,8 +45,8 @@ enum class Network
 	EIP158Test = 74,		///< Homestead + EIP150 + EIP158 Rules active from block 0
 	MetropolisTest = 75,    ///< All fork rules + Metropolis active from block 0
 	Special = 0xff,			///< Something else.
-	marbellachainMainNetwork = 9,    ///< MARBELLACHAIN Homestead + EIP150 + EIP158 Rules active from block 0 to enum class Network
-	marbellachainTestNetwork = 10
+	mchainMainNetwork = 9,    ///< MCHAIN Homestead + EIP150 + EIP158 Rules active from block 0 to enum class Network
+	mchainTestNetwork = 10
 };
 
 std::string const& genesisInfo(Network _n);

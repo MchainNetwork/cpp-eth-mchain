@@ -36,7 +36,7 @@
 #include <boost/filesystem.hpp>
 using namespace std;
 using namespace dev;
-#ifndef MARBELLACHAIN_BUILD
+#ifndef MCHAIN_BUILD
 static_assert(BOOST_VERSION == 106300, "Wrong boost headers version");
 #endif
 // Should be written to only once during startup

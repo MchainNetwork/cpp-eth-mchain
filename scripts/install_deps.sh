@@ -92,8 +92,8 @@ Darwin)
     brew -v > /dev/null 2>&1 || { echo >&2 "ERROR - cpp-ethereum requires a Homebrew install.  See http://brew.sh."; exit 1; }
 
     # And finally install all the external dependencies.
-    brew tap marbellachain/homebrew-marbellachain
-    brew reinstall marbellachain/homebrew-marbellachain/leveldb -s 
+    brew tap mchain/homebrew-mchain
+    brew reinstall mchain/homebrew-mchain/leveldb -s 
     brew install \
         libmicrohttpd \
         miniupnpc

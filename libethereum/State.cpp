@@ -26,7 +26,7 @@
 #include <boost/timer.hpp>
 #include <libdevcore/CommonIO.h>
 #include <libdevcore/Assertions.h>
-#ifndef MARBELLACHAIN_BUILD
+#ifndef MCHAIN_BUILD
 #include <libdevcore/TrieHash.h>
 #endif
 #include <libevmcore/Instruction.h>
